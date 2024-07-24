@@ -1,0 +1,101 @@
+instructors:
+- certificates:
+  - Strength Training
+  - Stretching
+  - Yoga Teacher Training
+  id: 1
+  name: Diane
+- certificates:
+  - Cardio
+  id: 2
+  name: David
+- certificates:
+  - Cardio
+  - Strength Training
+  id: 3
+  name: Jennifer
+- certificates:
+  - Cardio
+  - Stretching
+  id: 4
+  name: Michelle
+- certificates:
+  - Dance
+  - Stretching
+  - Yoga Teacher Training
+  id: 5
+  name: Mario Badr
+name: Athletic Centre
+rooms:
+- capacity: 30
+  name: FH1
+- capacity: 30
+  name: FH2
+- capacity: 30
+  name: FH3
+- capacity: 20
+  name: DS
+schedule:
+- instructor: 1
+  participants:
+  - tom@gmail.com
+  - michael@outlook.com
+  - ziwei@gmail.com
+  - lucy@gmail.com
+  room: FH1
+  time: 2020-01-14 09:00:00
+  workout_class: Fit Mix
+- instructor: 3
+  participants:
+  - rachel@hotmail.com
+  - robert@yahoo.com
+  - anoushka@hotmail.com
+  - nada@msn.com
+  room: FH2
+  time: 2020-01-14 09:00:00
+  workout_class: Boot Camp
+- instructor: 5
+  participants:
+  - ravi@gmail.com
+  - inaaya@gmail.com
+  room: DS
+  time: 2020-01-14 09:00:00
+  workout_class: Zumba
+- instructor: 5
+  participants: []
+  room: DS
+  time: 2020-01-14 12:00:00
+  workout_class: Zumba
+- instructor: 1
+  participants: []
+  room: FH1
+  time: 2020-01-14 18:00:00
+  workout_class: Fit Mix
+- instructor: 2
+  participants: []
+  room: FH2
+  time: 2020-01-14 18:00:00
+  workout_class: HIIT
+- instructor: 3
+  participants: []
+  room: FH3
+  time: 2020-01-14 18:00:00
+  workout_class: Boot Camp
+workout_classes:
+- certificates:
+  - Cardio
+  - Strength Training
+  name: Boot Camp
+- certificates:
+  - Stretching
+  name: Stretch & Relax
+- certificates:
+  - Dance
+  name: Zumba
+- certificates:
+  - Cardio
+  name: HIIT
+- certificates:
+  - Strength Training
+  - Stretching
+  name: Fit Mix
